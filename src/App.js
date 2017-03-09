@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MyReactComponent from './MyReactComponent'
+import AppBar from './AppBar'
 import './App.css';
 
-class App extends Component {
+/*class App extends Component {
   render() {
     return (
       <div className="App">
@@ -16,6 +19,14 @@ class App extends Component {
       </div>
     );
   }
-}
+}*/
+const App = () => (
+  <MuiThemeProvider>
+    <div>
+    <MyReactComponent />
+    <AppBar />
+    </div>
+  </MuiThemeProvider>
+);
 
 export default App;
