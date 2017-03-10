@@ -6,6 +6,8 @@ import MyReactComponent from './MyReactComponent'
 import AppBar from './AppBar'
 import MyTrend from './MyTrend'
 import Toolbar from './Toolbar'
+import Drawer from './Drawer'
+import MyList from './MyList'
 
 import './App.css';
 
@@ -27,10 +29,8 @@ import './App.css';
 const App = () => (
   <MuiThemeProvider>
     <div>
-    <Toolbar />
-    <MyReactComponent />
-    <AppBar />
-
+      <AppBar />
+      <MyList />
     </div>
   </MuiThemeProvider>
 );
