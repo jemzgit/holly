@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import MyReactComponent from './MyReactComponent'
 import AppBar from './AppBar'
-import MyTrend from './MyTrend'
-import Toolbar from './Toolbar'
-import Drawer from './Drawer'
 import MyList from './MyList'
 
 import './App.css';
+
+import SampleParag from './SampleParag'
+import SampleParag1 from './SampleParag1'
+
 
 /*class App extends Component {
   render() {
@@ -26,11 +26,16 @@ import './App.css';
     );
   }
 }*/
+
 const App = () => (
   <MuiThemeProvider>
     <div>
       <AppBar />
       <MyList />
+
+      
+      <SampleParag name="myParag" />
+      <SampleParag1 name="myParag1" />
     </div>
   </MuiThemeProvider>
 );

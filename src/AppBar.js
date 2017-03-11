@@ -13,7 +13,9 @@ class Login extends Component {
 
   render() {
     return (
+      <div>
       <FlatButton {...this.props} label="Login" />
+      </div>
     );
   }
 }
@@ -51,17 +53,10 @@ class AppBarExampleComposition extends Component {
   render() {
     return (
       <div>
-        <Toggle
-          label="Logged"
-          defaultToggled={true}
-          onToggle={this.handleChange}
-          labelPosition="right"
-          style={{margin: 20}}
-        />
         <AppBar
           title="Title"
           iconElementLeft={<IconButton><NavigationClose /></IconButton>}
-          iconElementRight={this.state.logged ? <Logged /> : <Login />}
+          iconElementRight={<Logged /> }
         />
       </div>
     );
