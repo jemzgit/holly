@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
+    "grommet": "^1.2.1",
     "react-scripts": "0.9.4"
   },
   "dependencies": {
