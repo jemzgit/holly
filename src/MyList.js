@@ -17,7 +17,6 @@ import StarIcon from 'material-ui/svg-icons/action/grade'
 
 
 import Scroll from 'react-scroll'
-const scroll = Scroll.animateScroll;
 const scroller = Scroll.scroller;
 
 import ScrollListItem from './ScrollListItem'
@@ -50,12 +49,12 @@ function handleParag1() {
 const ListExampleContacts = () => (
   <MobileTearSheet>
     <List>
-      <ScrollListItem onClick={handleActive}
+      <ScrollListItem onClick={handleGo}
         primaryText="Rooms"
         leftIcon={<ActionHome color={pinkA200} />}
         rightAvatar={<Avatar src="images/chexee-128.jpg" />}
       />
-      <ScrollListItem
+      <ScrollListItem onClick={handleParag1}
         primaryText="Location on Map"
         leftIcon={<LocationIcon color={pinkA200} />}
         insetChildren={true}
@@ -99,7 +98,7 @@ const ListExampleContacts = () => (
         leftAvatar={
           <Avatar
             color={pinkA200} backgroundColor={transparent}
-            style={{left: 8}}
+            style={{left: 4}}
           >
             BTS
           </Avatar>

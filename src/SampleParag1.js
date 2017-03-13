@@ -1,9 +1,18 @@
 import React from 'react';
 import Scroll from 'react-scroll';
 const Helpers = Scroll.Helpers;
+import GMap from './GMap'
+
+const cover = {height: '380px'};
 
 const SampleParag1 = () => (
-    <div style={{height:500}}>
+
+    <div style={{height: '500px'}}>
+
+
+       <div className="leaflet-container">
+       <GMap/>
+      </div>
         Donald Franciszek Tusk ([ˈdɔnalt franˈt͡ɕiʂɛk ˈtusk] ( listen); born 22 April 1957) is a Polish politician and historian. He has been President of the European Council since 1 December 2014. Previously he was Prime Minister of Poland (2007–2014) and a co-founder and chairman of the Civic Platform (Platforma Obywatelska) party.[1]
 
 Tusk has been involved in Polish politics since the early 1990s, having founded several political parties and held elected office almost continuously since 1991. He was elected Prime Minister in 2007 and with his Civic Union party's victory in the 2011 Polish parliamentary election, he became the first Prime Minister to be re-elected since the fall of Communism in Poland.[2]

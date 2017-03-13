@@ -20,9 +20,6 @@ import Paragraph from 'grommet/components/Paragraph';
 
 
 
-
-
-
 /*class App extends Component {
   render() {
     return (
@@ -41,8 +38,8 @@ import Paragraph from 'grommet/components/Paragraph';
 
 const App = () => (
   <MuiThemeProvider>
-    <div style={{maxWidth:800, margin: 'auto'}}>
-      
+    <div style={{maxWidth:800, margin: 'auto', padding: '5'}}>
+
       <AppBar />
       <GrApp>
         <Heading>
@@ -55,7 +52,6 @@ const App = () => (
 
       </GrApp>
       <MyList />
-
 
       <SampleParag name="myParag" />
       <SampleParag1 name="myParag1" />

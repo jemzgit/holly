@@ -22,3 +22,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.mapid { height: 380px; }
+
+.leaflet-container {
+        height: 400px;
+        width: 100%;
+        margin: 0 auto;
+}
