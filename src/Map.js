@@ -6,7 +6,7 @@ export default class SimpleExample extends Component {
   state = {
     lat: 13.709472,
     lng: 100.598222,
-    zoom: 13,
+    zoom: 14,
   }
 
   render () {
@@ -19,7 +19,7 @@ export default class SimpleExample extends Component {
         />
         <Marker position={position}>
           <Popup>
-            <span>A pretty CSS3 popup. <br /> Easily customizable.</span>
+            <span>Holly's House <br /> </span>
           </Popup>
         </Marker>
       </Map>

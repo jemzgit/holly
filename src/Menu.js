@@ -5,7 +5,7 @@ import Divider from 'material-ui/Divider';
 import Avatar from 'material-ui/Avatar';
 import {pinkA200, transparent, yellow600} from 'material-ui/styles/colors';
 
-import ActionHome from 'material-ui/svg-icons/action/home';
+import HomeIcon from 'material-ui/svg-icons/action/home';
 import LocationIcon from 'material-ui/svg-icons/action/room';
 import VideoIcon from 'material-ui/svg-icons/notification/ondemand-video';
 import AirportIcon from 'material-ui/svg-icons/maps/local-airport';
@@ -17,18 +17,14 @@ import StarIcon from 'material-ui/svg-icons/action/grade'
 
 
 import Scroll from 'react-scroll'
+import ScrollListItem from './ScrollListItem'
 const scroller = Scroll.scroller;
 
-import ScrollListItem from './ScrollListItem'
-
-function handleActive(tab) {
-  alert(`First item was clicked`);
-}
 
 
 
-function handleGo(){
-    scroller.scrollTo('myParag', {
+function GoToRooms(){
+    scroller.scrollTo('MyRooms', {
     duration: 500,
     delay: 100,
     smooth: true,
@@ -36,8 +32,8 @@ function handleGo(){
     //scroll.scrollToBottom();
 }
 
-function handleParag1() {
-    scroller.scrollTo('myParag1', {
+function GoToLocation() {
+    scroller.scrollTo('MyLocation', {
     duration: 500,
     delay: 100,
     smooth: true,
@@ -49,12 +45,12 @@ function handleParag1() {
 const ListExampleContacts = () => (
   <MobileTearSheet>
     <List>
-      <ScrollListItem onClick={handleGo}
+      <ScrollListItem onClick={GoToRooms}
         primaryText="Rooms"
-        leftIcon={<ActionHome color={pinkA200} />}
+        leftIcon={<HomeIcon color={pinkA200} />}
         rightAvatar={<Avatar src="images/chexee-128.jpg" />}
       />
-      <ScrollListItem onClick={handleParag1}
+      <ScrollListItem onClick={GoToLocation}
         primaryText="Location on Map"
         leftIcon={<LocationIcon color={pinkA200} />}
         insetChildren={true}
@@ -67,19 +63,19 @@ const ListExampleContacts = () => (
         rightAvatar={<Avatar src="images/angelceballos-128.jpg" />}
       />
       
-      <ScrollListItem onClick={handleGo}
+      <ScrollListItem
         primaryText="Directions From The Airports"
         leftIcon={<AirportIcon color={pinkA200}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/kolage-128.jpg" />}
       />
-      <ScrollListItem onClick={handleParag1}
+      <ScrollListItem
         primaryText="Coming From Train Station"
         leftIcon={<TrainIcon color={pinkA200}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/jsa-128.jpg" />}
       />
-      <ScrollListItem onClick={handleParag1}
+      <ScrollListItem
         primaryText="Coming From Bus Station"
         leftIcon={<BusIcon color={pinkA200}/>}
         insetChildren={true}
