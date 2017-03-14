@@ -11,11 +11,13 @@ import Value from 'grommet/components/Value';
 import GrApp from 'grommet/components/App';
 
 import Pulse from 'grommet/components/icons/Pulse';
+import Divider from 'material-ui/Divider';
 import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
 
 
-import Divider from 'material-ui/Divider';
+
+
 
 
 
@@ -25,14 +27,18 @@ const style = {
 };
 const Location = () => (
 
-    <div style={{height: '500px', paddingTop: '40px'}}>
+    <div style={{ paddingTop: '40px'}}>
     <Divider />
     <GrApp>
         
     <Heading style={{paddingTop: '20px'}} align='center'>GPS Location</Heading>
    <Paragraph>
-  You can copy and paste the following GPS coordinate in Google Maps or Microsoft Bing
-  or any other map tool to see the location of our house. Also you can click
+        We are located near the On Nut BTS station. The walking distance
+        is only five minutes from the BTS station. 
+    </Paragraph>
+   <Paragraph>
+  You can copy and paste the following GPS coordinate in Google Maps or 
+  any other map tool to see the location of our house. Also you can click
   on Google Map button or check the map below:
 </Paragraph>
     <Value  value={'13.709472,100.598222'} />
@@ -47,7 +53,6 @@ const Location = () => (
        </div>
     
     </GrApp>
-
 
        
 

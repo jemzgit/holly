@@ -40,6 +40,21 @@ function GoToLocation() {
   })
 }
 
+function GoToVideo() {
+    scroller.scrollTo('MyVideo', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
+
+function GoToAirport() {
+    scroller.scrollTo('MyAirport', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
 
 
 const ListExampleContacts = () => (
@@ -56,14 +71,14 @@ const ListExampleContacts = () => (
         insetChildren={true}
         rightAvatar={<Avatar src="images/angelceballos-128.jpg" />}
       />
-      <ListItem
+      <ScrollListItem onClick={GoToVideo}
         primaryText="Video"
         leftIcon={<VideoIcon color={pinkA200} />}
         insetChildren={true}
         rightAvatar={<Avatar src="images/angelceballos-128.jpg" />}
       />
       
-      <ScrollListItem
+      <ScrollListItem onClick={GoToAirport}
         primaryText="Directions From The Airports"
         leftIcon={<AirportIcon color={pinkA200}/>}
         insetChildren={true}

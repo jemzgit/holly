@@ -5,13 +5,16 @@ import Menu from './Menu'
 
 import './App.css';
 
-import Rooms from './Rooms'
-import Location from './Location'
+import SectionRooms from './SectionRooms'
+import SectionLocation from './SectionLocation'
+import SectionVideo from './SectionVideo'
+import SectionAirport from './SectionAirport'
 
 import '../node_modules/grommet/grommet.min.css';
 import GrApp from 'grommet/components/App';
 import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
+
 
 
 const App = () => (
@@ -31,10 +34,11 @@ const App = () => (
 
       <Menu />
 
-      <Rooms name="MyRooms" />
-      <Location name="MyLocation" />
-
-
+      <SectionRooms name="MyRooms" />
+      <SectionLocation name="MyLocation" />
+      <SectionVideo name="MyVideo" />
+      <SectionAirport name="MyAirport" />
+    
       
     </div>
   </MuiThemeProvider>
