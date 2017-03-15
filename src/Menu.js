@@ -56,6 +56,37 @@ function GoToAirport() {
   })
 }
 
+function GoToTrain() {
+    scroller.scrollTo('MyTrain', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
+
+function GoToAttraction() {
+    scroller.scrollTo('MyAttraction', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
+
+function GoToBus() {
+    scroller.scrollTo('MyBus', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
+
+function GoToLocal() {
+    scroller.scrollTo('MyLocal', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
 
 const ListExampleContacts = () => (
   <MobileTearSheet>
@@ -84,13 +115,13 @@ const ListExampleContacts = () => (
         insetChildren={true}
         rightAvatar={<Avatar src="images/kolage-128.jpg" />}
       />
-      <ScrollListItem
+      <ScrollListItem onClick={GoToTrain}
         primaryText="Coming From Train Station"
         leftIcon={<TrainIcon color={pinkA200}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/jsa-128.jpg" />}
       />
-      <ScrollListItem
+      <ScrollListItem onClick={GoToBus}
         primaryText="Coming From Bus Station"
         leftIcon={<BusIcon color={pinkA200}/>}
         insetChildren={true}
@@ -99,25 +130,12 @@ const ListExampleContacts = () => (
     </List>
     <Divider inset={true} />
     <List>
-      <ListItem
+      <ScrollListItem onClick={GoToAttraction}
         primaryText="Get to Tourist Attractions"
         leftIcon={<StarIcon color={pinkA200}/>}
         rightAvatar={<Avatar src="images/adellecharles-128.jpg" />}
       />
-      <ListItem
-        primaryText="Main Attractions near BTS and MRT"
-        leftAvatar={
-          <Avatar
-            color={pinkA200} backgroundColor={transparent}
-            style={{left: 4}}
-          >
-            BTS
-          </Avatar>
-        }
-        insetChildren={true}
-        rightAvatar={<Avatar src="images/adhamdannaway-128.jpg" />}
-      />
-      <ListItem
+      <ScrollListItem onClick={GoToLocal}
         primaryText="Local Attraction"
         leftIcon={<DiningIcon color={pinkA200}/>}
         insetChildren={true}

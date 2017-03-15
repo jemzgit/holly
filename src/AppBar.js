@@ -8,6 +8,8 @@ import Toggle from 'material-ui/Toggle';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
+import HomeIcon from 'material-ui/svg-icons/action/home';
+
 
 const Logged = (props) => (
   <IconMenu
@@ -43,8 +45,8 @@ class AppBarExampleComposition extends Component {
     return (
       <div>
         <AppBar
-          title="Title"
-          iconElementLeft={<IconButton><NavigationClose /></IconButton>}
+          title="Holly's House"
+          iconElementLeft={<IconButton><HomeIcon/></IconButton>}
           iconElementRight={<Logged /> }
         />
       </div>

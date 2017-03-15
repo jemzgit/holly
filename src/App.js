@@ -9,6 +9,13 @@ import SectionRooms from './SectionRooms'
 import SectionLocation from './SectionLocation'
 import SectionVideo from './SectionVideo'
 import SectionAirport from './SectionAirport'
+import SectionTrain from './SectionTrain'
+import SectionBus from './SectionBus'
+import SectionAttraction from './SectionAttraction'
+import SectionLocal from './SectionLocal'
+import SectionContact from './SectionContact'
+import Footer from './Footer';
+
 
 import '../node_modules/grommet/grommet.min.css';
 import GrApp from 'grommet/components/App';
@@ -38,8 +45,13 @@ const App = () => (
       <SectionLocation name="MyLocation" />
       <SectionVideo name="MyVideo" />
       <SectionAirport name="MyAirport" />
+      <SectionTrain name="MyTrain" />
+      <SectionBus name="MyBus"/>
+      <SectionAttraction name="MyAttraction" />
+      <SectionLocal name="MyLocal"/>
+      <SectionContact name="MyContact"/>
     
-      
+      <Footer />
     </div>
   </MuiThemeProvider>
 );

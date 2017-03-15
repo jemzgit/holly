@@ -8,26 +8,28 @@ import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
 import Divider from 'material-ui/Divider';
 import RaisedButton from 'material-ui/RaisedButton';
-import TabAirport from './TabAirport'
+
+import TabBus from './TabBus'
+
 
 const style = {
    margin: 12,
 };
 
-const SectionAirport= () => (
+const SectionTrain= () => (
     <div style={{ paddingTop: '40px'}}>
         <Divider />
         <GrApp> 
-            <Heading style={{paddingTop: '20px'}}>Airports</Heading>
+            <Heading style={{paddingTop: '20px'}}>Bus Terminals</Heading>
             <Paragraph>
-            Bangkok has <b>two</b> international airports. Please make sure 
-            you choose the correct one:
+            There are two main bus terminals in Bangkok. Ekkamai Bus terminal
+            and Mo Chit bus Terminal.
             </Paragraph>
         </GrApp>
 
-        <TabAirport />
+        <TabBus />
 
     </div>
 )
 
-export default Helpers.Element(SectionAirport);
+export default Helpers.Element(SectionTrain);
