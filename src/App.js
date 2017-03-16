@@ -21,6 +21,8 @@ import '../node_modules/grommet/grommet.min.css';
 import GrApp from 'grommet/components/App';
 import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
+import Image from 'grommet/components/Image';
+
 
 
 
@@ -31,12 +33,17 @@ const App = () => (
       <AppBar />
 
       <GrApp>
-        <Heading>
-          Holly's Hostel
+        
+        <Heading align="center" style={{paddingTop: "20px"}}>
+          Holly's House
         </Heading>
         <Paragraph margin="medium">
+        
           Welcome to Holly's Hostel! You can find various information regarding locations and navigation in bangkok in here.
         </Paragraph>
+        <Image src="images/bunny.png" float={"right"} size={'small'}/>
+        
+
       </GrApp>
 
       <Menu />

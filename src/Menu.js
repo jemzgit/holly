@@ -3,7 +3,7 @@ import MobileTearSheet from './MobileTearSheet';
 import {List, ListItem} from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import Avatar from 'material-ui/Avatar';
-import {pinkA200, transparent, yellow600} from 'material-ui/styles/colors';
+import {pink900, cyanA200, amberA200, indigoA200, orangeA200, limeA200, pinkA200, blueA200, greenA200, purpleA200, brown500, transparent, yellow600, blue500 } from 'material-ui/styles/colors';
 
 import HomeIcon from 'material-ui/svg-icons/action/home';
 import LocationIcon from 'material-ui/svg-icons/action/room';
@@ -19,8 +19,6 @@ import StarIcon from 'material-ui/svg-icons/action/grade'
 import Scroll from 'react-scroll'
 import ScrollListItem from './ScrollListItem'
 const scroller = Scroll.scroller;
-
-
 
 
 function GoToRooms(){
@@ -93,60 +91,60 @@ const ListExampleContacts = () => (
     <List>
       <ScrollListItem onClick={GoToRooms}
         primaryText="Rooms"
-        leftIcon={<HomeIcon color={pinkA200} />}
-        rightAvatar={<Avatar src="images/chexee-128.jpg" />}
+        leftIcon={<HomeIcon color={greenA200} />}
+        rightAvatar={<Avatar src="images/room.png" />}
       />
       <ScrollListItem onClick={GoToLocation}
-        primaryText="Location on Map"
-        leftIcon={<LocationIcon color={pinkA200} />}
+        primaryText="Location on The Map"
+        leftIcon={<LocationIcon color={blueA200} />}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/angelceballos-128.jpg" />}
+        rightAvatar={<Avatar src="images/map.png" />}
       />
       <ScrollListItem onClick={GoToVideo}
         primaryText="Video"
         leftIcon={<VideoIcon color={pinkA200} />}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/angelceballos-128.jpg" />}
+        rightAvatar={<Avatar src="images/video.png" />}
       />
       
       <ScrollListItem onClick={GoToAirport}
-        primaryText="Directions From The Airports"
-        leftIcon={<AirportIcon color={pinkA200}/>}
+        primaryText="Directions From the Airports"
+        leftIcon={<AirportIcon color={purpleA200}/>}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/kolage-128.jpg" />}
+        rightAvatar={<Avatar src="images/airplane.png" />}
       />
       <ScrollListItem onClick={GoToTrain}
-        primaryText="Coming From Train Station"
-        leftIcon={<TrainIcon color={pinkA200}/>}
+        primaryText="Coming From the Train Station"
+        leftIcon={<TrainIcon color={pink900}/>}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/jsa-128.jpg" />}
+        rightAvatar={<Avatar src="images/train.jpg" />}
       />
       <ScrollListItem onClick={GoToBus}
-        primaryText="Coming From Bus Station"
-        leftIcon={<BusIcon color={pinkA200}/>}
+        primaryText="Coming From the Bus Station"
+        leftIcon={<BusIcon color={cyanA200}/>}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/jsa-128.jpg" />}
+        rightAvatar={<Avatar src="images/bus.png" />}
       />
     </List>
     <Divider inset={true} />
     <List>
       <ScrollListItem onClick={GoToAttraction}
         primaryText="Get to Tourist Attractions"
-        leftIcon={<StarIcon color={pinkA200}/>}
-        rightAvatar={<Avatar src="images/adellecharles-128.jpg" />}
+        leftIcon={<StarIcon color={orangeA200}/>}
+        rightAvatar={<Avatar src="images/attraction.jpg" />}
       />
       <ScrollListItem onClick={GoToLocal}
         primaryText="Local Attraction"
-        leftIcon={<DiningIcon color={pinkA200}/>}
+        leftIcon={<DiningIcon color={amberA200}/>}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/allisongrayce-128.jpg" />}
+        rightAvatar={<Avatar src="images/local.png" />}
       />
     </List>
       <ListItem
         primaryText="Contact"
-        leftIcon={<EmailIcon color={pinkA200}/>}
+        leftIcon={<EmailIcon color={indigoA200}/>}
         insetChildren={true}
-        rightAvatar={<Avatar src="images/kerem-128.jpg" />}
+        rightAvatar={<Avatar src="images/mail.png" />}
       />
 
     </MobileTearSheet>
