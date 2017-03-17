@@ -26,11 +26,10 @@ const TabsExampleIconText = () => (
       label="Eastern Terminal"
     >
          <div>
-            <h2 style={styles.headline}>Controllable Tab A</h2>
+            <h2 style={styles.headline}>Ekkamai Eastern Bus Terminal</h2>
             <p>
-              Tabs are also controllable if you want to programmatically pass them their values.
-              This allows for more functionality in Tabs such as not
-              having any Tab selected or assigning them different values.
+              Ekkamai bus termianl is located near our house. You can easily
+              go by BTS near our house (On Nut BTS station) to Ekkamai BTS station.
             </p>
           </div>
     </Tab>
@@ -39,11 +38,11 @@ const TabsExampleIconText = () => (
       label="Northern Terminal"
     >
         <div>
-            <h2 style={styles.headline}>Controllable Tab B</h2>
+            <h2 style={styles.headline}>Mo Chit Bus Terminal</h2>
             <p>
-              This is another example of a controllable tab. Remember, if you
-              use controllable Tabs, you need to give all of your tabs values or else
-              you wont be able to select them.
+              You can go to Mo Chit Bus Terminal by BTS. You take BTS train
+              from On Nut station and go to Mo Chit BTS station. You have
+              to exchange the BTS train at Siam station.
             </p>
           </div>
     </Tab>

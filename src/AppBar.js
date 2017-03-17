@@ -10,28 +10,35 @@ import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
 import HomeIcon from 'material-ui/svg-icons/action/home';
 
+import Scroll from 'react-scroll'
+import ScrollListItem from './ScrollListItem'
+const scroller = Scroll.scroller;
+
+function GoToContact() {
+    scroller.scrollTo('MyContact', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
 
 const Logged = (props) => (
   <IconMenu
     {...props}
     iconButtonElement={
-      <IconButton><MoreVertIcon /></IconButton>
+      <IconButton><MoreVertIcon/></IconButton>
     }
     targetOrigin={{horizontal: 'right', vertical: 'top'}}
     anchorOrigin={{horizontal: 'right', vertical: 'top'}}
   >
-    <MenuItem primaryText="Refresh" />
-    <MenuItem primaryText="Help" />
-    <MenuItem primaryText="Sign out" />
+    <MenuItem primaryText="Contact us"
+    onClick={GoToContact} />
   </IconMenu>
 );
 
 Logged.muiName = 'IconMenu';
 
-/**
- * This example is taking advantage of the composability of the `AppBar`
- * to render different components depending on the application state.
- */
+
 class AppBarExampleComposition extends Component {
   state = {
     logged: true,

@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react';
+import Divider from 'material-ui/Divider';
 
 class MobileTearSheet extends Component {
 
@@ -23,7 +24,6 @@ class MobileTearSheet extends Component {
     const styles = {
       root: {
         marginBottom: 24,
-        marginRight: 24,
         maxWidth: '100%',
         width: '100%',
       },
@@ -46,7 +46,7 @@ class MobileTearSheet extends Component {
         <div style={prepareStyles(styles.container)}>
           {this.props.children}
         </div>
-        <img style={prepareStyles(styles.bottomTear)} src="images/bottom-tear.svg" />
+<Divider/>
       </div>
     );
   }

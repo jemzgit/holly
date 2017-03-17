@@ -25,7 +25,8 @@ const SectionContact= () => (
             Here is various ways that you can contact us:
             </Paragraph>
         </GrApp>
-                    <Table />
+
+        <Table />
         
 
     </div>

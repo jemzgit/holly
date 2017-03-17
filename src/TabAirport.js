@@ -26,11 +26,13 @@ const TabsExampleIconText = () => (
       label="SUVARNABUMI Airport"
     >
          <div>
-            <h2 style={styles.headline}>Controllable Tab A</h2>
+            <h2 style={styles.headline}>Suvarnabhumi Airport</h2>
             <p>
-              Tabs are also controllable if you want to programmatically pass them their values.
-              This allows for more functionality in Tabs such as not
-              having any Tab selected or assigning them different values.
+              Suvarnabhumi Airport is the largest and the main airport in Bangkok.
+              This airport handles the majority of international flights. 
+              It has several convenient public transportation systems including the
+              well-known Airport Link which is a the train system that connected airport
+              to the the rest of Bangkok city.
             </p>
           </div>
     </Tab>
@@ -39,11 +41,17 @@ const TabsExampleIconText = () => (
       label="Don Muang Airport"
     >
         <div>
-            <h2 style={styles.headline}>Controllable Tab B</h2>
+            <h2 style={styles.headline}>Don Muang Airport</h2>
             <p>
-              This is another example of a controllable tab. Remember, if you
-              use controllable Tabs, you need to give all of your tabs values or else
-              you wont be able to select them.
+              Don Muang is the second international airport in Bangkok and is mainly
+              used for flights to and from other eastern asian countries (China, Singapore, Malaysia, etc)
+              as well as domestic flights. Unlike Suvarnabhumi, Don Muang airport 
+              does NOT have easy public transportation. However, you can always easily
+              find taxi right outside the airport. A word of caustion, the taxis
+              inside airport are very expensive. Do not use airport taxis. Instead
+              walk outside the airport priemeter to the main road and you can
+              easily find normal taxis with meter. Please make sure they turn on the meter
+
             </p>
           </div>
     </Tab>

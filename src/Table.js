@@ -18,16 +18,16 @@ const TableExampleSimple = () => (
         
       </TableRow>
       <TableRow>
-        <TableRowColumn>Kukkik's Phone:</TableRowColumn>
+        <TableRowColumn>Kukkik's Phone</TableRowColumn>
         <TableRowColumn>0824874351</TableRowColumn>
       </TableRow>
       <TableRow>
-        <TableRowColumn>James' Phone Number</TableRowColumn>
+        <TableRowColumn>James' Phone </TableRowColumn>
         <TableRowColumn>0991498242</TableRowColumn>
       </TableRow>
       <TableRow>
-        <TableRowColumn>Email address</TableRowColumn>
-        <TableRowColumn>hollyshouse.bkk@gmail.com</TableRowColumn>
+        <TableRowColumn>Gmail address</TableRowColumn>
+        <TableRowColumn>hollyshouse.bkk</TableRowColumn>
       </TableRow>
       <TableRow>
         <TableRowColumn>Kukkik's Line</TableRowColumn>

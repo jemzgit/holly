@@ -114,7 +114,7 @@ const ListExampleContacts = () => (
         insetChildren={true}
         rightAvatar={<Avatar src="images/video.png" />}
       />
-      
+      <Divider inset={true} />
       <ScrollListItem onClick={GoToAirport}
         primaryText="Airports"
         leftIcon={<AirportIcon color={purpleA200}/>}

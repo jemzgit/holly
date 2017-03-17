@@ -26,45 +26,42 @@ import Paragraph from 'grommet/components/Paragraph';
 import Image from 'grommet/components/Image';
 import Columns from 'grommet/components/Columns';
 import Box from 'grommet/components/Box';
+     
 
+const App = () => (     
 
-const App = () => (
   <MuiThemeProvider>
-    <div style={{maxWidth: '800px', margin: 'auto', padding: '5px'}}>
+    <div 
+    style={{maxWidth: '800px', margin: 'auto', padding: '5px'}}>
 
       <AppBar />
 
-      <GrApp>
-        
-
-
-        <Columns style={{paddingTop: '20px', paddingBottom:'20px'}}>
-        <Box align='left' pad='medium' margin='small'>
-          <Heading align="center" style={{paddingTop: "20px"}}>
-          Holly's House
-        </Heading>
-        <Paragraph margin="medium">
-        
-          Welcome to Holly's House! We are a small guesthouse located in Bangkok, Thailand.
-          You can find various information regarding locations and navigation in bangkok in here.
-          Furthermore we have a video that shows how to walk from the On Nut BTS
-          station to our place.
-          We strive to make you feel welcome and comfortable in our house.
-          Hope you enjoy your stay! 
-        </Paragraph>
+       <GrApp> 
+       
+        <Columns style={{paddingTop: '5px', paddingBottom:'5px'}}>
+        <Box align='center' pad='small' margin='small'>
+          <Heading align="center" >
+            Holly's House
+          </Heading>
+          <Paragraph margin="medium">
+            Welcome to Holly's House! We are a small guesthouse located in Bangkok, Thailand.
+            You can find various information regarding locations and navigation in bangkok in here.
+            Furthermore we have a video that shows how to walk from the On Nut BTS
+            station to our place.
+            We strive to make you feel welcome and comfortable in our house.
+            Hope you enjoy your stay! 
+          </Paragraph>
         </Box>
         
-        <Box align='right'>
-        <Card>
-        <Image src="images/third-room.jpg" float={"right"} size={'medium'}/>
-        <CardText>
-          Sit, relax and enjoy your stay ;)
-        </CardText>
-        </Card>
-        
+        <Box align='center' pad='medium' margin='small'>
+          <Card>
+          <Image src="images/third-room.jpg" size={'medium'}/>
+          <CardText>
+            Sit, relax and enjoy your stay ;)
+          </CardText>
+          </Card>
         </Box>
         </Columns>
-        
         
        
       </GrApp>
@@ -80,9 +77,8 @@ const App = () => (
       <SectionAttraction name="MyAttraction" />
       <SectionLocal name="MyLocal"/>
       <SectionContact name="MyContact"/>
-
-
       <Footer />
+      
     </div>
   </MuiThemeProvider>
 );
