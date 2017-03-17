@@ -5,25 +5,22 @@ import FlatButton from 'material-ui/FlatButton';
 const CardExampleWithAvatar = (Props) => (
   <Card>
     <CardHeader
-      title="URL Avatar"
-      subtitle="Subtitle"
-      avatar="images/jsa-128.jpg"
+      title={Props.RoomName}
+      subtitle={Props.Subtitle}
+      avatar={Props.Avatar}
     />
     <CardMedia
-      overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
+      overlay={<CardTitle title={Props.Title} subtitle={Props.Subtitle} />}
     >
       <img src={Props.Image} />
     </CardMedia>
-    <CardTitle title="Card title" subtitle="Card subtitle" />
+    <CardTitle title={Props.Title} subtitle={Props.Subtitle} />
     <CardText>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-      Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-      Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+      {Props.Content}
     </CardText>
     <CardActions>
-      <FlatButton label="Action1" />
-      <FlatButton label="Action2" />
+      <FlatButton label="Book On Airbnb" />
+      <FlatButton label="Book On HostelWorld" />
     </CardActions>
   </Card>
 );

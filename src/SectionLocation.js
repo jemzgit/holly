@@ -5,6 +5,7 @@ const Helpers = Scroll.Helpers;
 import Map from './Map'
 
 import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
 
 import Value from 'grommet/components/Value';
 
@@ -14,6 +15,7 @@ import Pulse from 'grommet/components/icons/Pulse';
 import Divider from 'material-ui/Divider';
 import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
+import Title from 'grommet/components/Title';
 
 
 
@@ -32,7 +34,7 @@ const Location = () => (
     <Divider />
     <GrApp>
         
-    <Heading style={{paddingTop: '20px'}} align='center'>GPS Location</Heading>
+    <Heading style={{paddingTop: '20px'}} align='center'>Location and Address</Heading>
    <Paragraph>
         We are located near the On Nut BTS station. The walking distance
         is only five minutes from the BTS station. 
@@ -51,8 +53,23 @@ const Location = () => (
     
     <div className="leaflet-container">
         <Map/>
-       </div>
-    
+    </div>
+    <br/>
+    <br/>
+    <Title>Address</Title> 
+    <Paragraph>
+    Here is our formal address in English and Thai:
+    </Paragraph>
+    <Paragraph>
+    Also please save the text below on your phone, it explains how
+    to find our place in detail. You can show it to locals or the taxi
+    driver:
+    </Paragraph>
+    <Paragraph>
+    Furthermore, here is an audio files that expalins how to find our place.
+    You can save it on your phone and play in for local people or taxi drivers:
+    </Paragraph> 
+    <FlatButton label="Download Audio File" secondary={true} />
     </GrApp>
 
        

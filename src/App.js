@@ -16,14 +16,16 @@ import SectionLocal from './SectionLocal'
 import SectionContact from './SectionContact'
 import Footer from './Footer';
 
+import {Card, CardText} from 'material-ui/Card'
+
 
 import '../node_modules/grommet/grommet.min.css';
 import GrApp from 'grommet/components/App';
 import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
 import Image from 'grommet/components/Image';
-
-
+import Columns from 'grommet/components/Columns';
+import Box from 'grommet/components/Box';
 
 
 const App = () => (
@@ -34,16 +36,37 @@ const App = () => (
 
       <GrApp>
         
-        <Heading align="center" style={{paddingTop: "20px"}}>
+
+
+        <Columns style={{paddingTop: '20px', paddingBottom:'20px'}}>
+        <Box align='left' pad='medium' margin='small'>
+          <Heading align="center" style={{paddingTop: "20px"}}>
           Holly's House
         </Heading>
         <Paragraph margin="medium">
         
-          Welcome to Holly's Hostel! You can find various information regarding locations and navigation in bangkok in here.
+          Welcome to Holly's House! We are a small guesthouse located in Bangkok, Thailand.
+          You can find various information regarding locations and navigation in bangkok in here.
+          Furthermore we have a video that shows how to walk from the On Nut BTS
+          station to our place.
+          We strive to make you feel welcome and comfortable in our house.
+          Hope you enjoy your stay! 
         </Paragraph>
-        <Image src="images/bunny.png" float={"right"} size={'small'}/>
+        </Box>
         
-
+        <Box align='right'>
+        <Card>
+        <Image src="images/third-room.jpg" float={"right"} size={'medium'}/>
+        <CardText>
+          Sit, relax and enjoy your stay ;)
+        </CardText>
+        </Card>
+        
+        </Box>
+        </Columns>
+        
+        
+       
       </GrApp>
 
       <Menu />
@@ -57,7 +80,8 @@ const App = () => (
       <SectionAttraction name="MyAttraction" />
       <SectionLocal name="MyLocal"/>
       <SectionContact name="MyContact"/>
-    
+
+
       <Footer />
     </div>
   </MuiThemeProvider>

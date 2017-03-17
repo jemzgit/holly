@@ -3,7 +3,7 @@ import MobileTearSheet from './MobileTearSheet';
 import {List, ListItem} from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import Avatar from 'material-ui/Avatar';
-import {pink900, cyanA200, amberA200, indigoA200, orangeA200, limeA200, pinkA200, blueA200, greenA200, purpleA200, brown500, transparent, yellow600, blue500 } from 'material-ui/styles/colors';
+import {grey700, pink900, cyanA200, amberA200, indigoA200, orangeA200, limeA200, pinkA200, blueA200, greenA200, purpleA200, brown500, transparent, yellow600, blue500 } from 'material-ui/styles/colors';
 
 import HomeIcon from 'material-ui/svg-icons/action/home';
 import LocationIcon from 'material-ui/svg-icons/action/room';
@@ -86,6 +86,14 @@ function GoToLocal() {
   })
 }
 
+function GoToContact() {
+    scroller.scrollTo('MyContact', {
+    duration: 500,
+    delay: 100,
+    smooth: true,
+  })
+}
+
 const ListExampleContacts = () => (
   <MobileTearSheet>
     <List>
@@ -95,7 +103,7 @@ const ListExampleContacts = () => (
         rightAvatar={<Avatar src="images/room.png" />}
       />
       <ScrollListItem onClick={GoToLocation}
-        primaryText="Location on The Map"
+        primaryText="Location and Address"
         leftIcon={<LocationIcon color={blueA200} />}
         insetChildren={true}
         rightAvatar={<Avatar src="images/map.png" />}
@@ -108,20 +116,20 @@ const ListExampleContacts = () => (
       />
       
       <ScrollListItem onClick={GoToAirport}
-        primaryText="Directions From the Airports"
+        primaryText="Airports"
         leftIcon={<AirportIcon color={purpleA200}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/airplane.png" />}
       />
       <ScrollListItem onClick={GoToTrain}
-        primaryText="Coming From the Train Station"
+        primaryText="Train Station"
         leftIcon={<TrainIcon color={pink900}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/train.jpg" />}
       />
       <ScrollListItem onClick={GoToBus}
-        primaryText="Coming From the Bus Station"
-        leftIcon={<BusIcon color={cyanA200}/>}
+        primaryText="Bus Stations"
+        leftIcon={<BusIcon color={grey700}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/bus.png" />}
       />
@@ -129,19 +137,19 @@ const ListExampleContacts = () => (
     <Divider inset={true} />
     <List>
       <ScrollListItem onClick={GoToAttraction}
-        primaryText="Get to Tourist Attractions"
+        primaryText="Tourist Attractions"
         leftIcon={<StarIcon color={orangeA200}/>}
         rightAvatar={<Avatar src="images/attraction.jpg" />}
       />
       <ScrollListItem onClick={GoToLocal}
-        primaryText="Local Attraction"
+        primaryText="Local Attractions"
         leftIcon={<DiningIcon color={amberA200}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/local.png" />}
       />
     </List>
       <ListItem
-        primaryText="Contact"
+        primaryText="Contact" onClick={GoToContact}
         leftIcon={<EmailIcon color={indigoA200}/>}
         insetChildren={true}
         rightAvatar={<Avatar src="images/mail.png" />}
