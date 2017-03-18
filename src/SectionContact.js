@@ -22,7 +22,7 @@ const SectionContact= () => (
         <GrApp> 
             <Heading style={{paddingTop: '20px'}}>Contact Information</Heading>
             <Paragraph>
-            Here is various ways that you can contact us:
+            If you have any questions or suggestions, please let us know. We would be always glad to help you :) Here is various ways that you can contact us:
             </Paragraph>
         </GrApp>
 
