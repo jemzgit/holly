@@ -52,7 +52,7 @@ class AppBarExampleComposition extends Component {
     return (
       <div>
         <AppBar
-          title="Holly's"
+          title="Holly"
           iconElementLeft={<IconButton><HomeIcon/></IconButton>}
           iconElementRight={<Logged /> }
         />

@@ -41,10 +41,10 @@ const App = () => (
         <Columns style={{paddingTop: '5px', paddingBottom:'5px'}}>
         <Box align='center' pad='small' margin='small'>
           <Heading align="center" >
-            Holly's House
+            Holly House
           </Heading>
           <Paragraph margin="medium">
-            Welcome to Holly's House! We are a small guesthouse located in Bangkok, Thailand.
+            Welcome to Holly House! We are a small guesthouse located in Bangkok, Thailand.
             You can find various information regarding locations and navigation in bangkok in here.
             Furthermore we have a video that shows how to walk from the On Nut BTS
             station to our place.
@@ -78,7 +78,7 @@ const App = () => (
       <SectionLocal name="MyLocal"/>
       <SectionContact name="MyContact"/>
       <Footer />
-      
+
     </div>
   </MuiThemeProvider>
 );
