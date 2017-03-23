@@ -66,7 +66,7 @@ const Location = () => (
     driver:
     </Paragraph>
     <Paragraph>
-    Furthermore, here is an audio files that expalins how to find our place.
+    Furthermore, here is an audio file that expalins how to find our place.
     You can save it on your phone and play in for local people or taxi drivers:
     </Paragraph> 
     <FlatButton label="Download Audio File" secondary={true} />

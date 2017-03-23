@@ -1,6 +1,6 @@
 {
-  "name": "hollys",
-  "version": "0.1.0",
+  "name": "holly",
+  "version": "0.1.1",
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
