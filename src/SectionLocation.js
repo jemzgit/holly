@@ -61,6 +61,10 @@ const Location = () => (
     Here is our formal address in English and Thai:
     </Paragraph>
     <Paragraph>
+        Thai: 1484/3 ซอยสุขุมวิท 48/2 แขวงพระโขนง เขตคลองเตย
+        English: 1484/3, Sukhumvit 48/2, Sukhumvit Rd, Khwaeng Phra Khanong, Khet Khlong Toei, Krung Thep Maha Nakhon, (10110)
+    </Paragraph>
+    <Paragraph>
     Also please save the text below on your phone, it explains how
     to find our place in detail. You can show it to locals or the taxi
     driver:
