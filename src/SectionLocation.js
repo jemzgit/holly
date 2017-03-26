@@ -58,26 +58,22 @@ const Location = () => (
     <br/>
     <Title>Address</Title> 
     <Paragraph>
-    Here is our formal address in English and Thai:
+    Here is the address of our house in English and Thai:
     </Paragraph>
     <Paragraph>
-        Thai: 1484/3 ซอยสุขุมวิท 48/2 แขวงพระโขนง เขตคลองเตย
-        English: 1484/3, Sukhumvit 48/2, Sukhumvit Rd, Khwaeng Phra Khanong, Khet Khlong Toei, Krung Thep Maha Nakhon, (10110)
+        <b>Thai</b>: 1484/3 ซอยสุขุมวิท 48/2 แขวงพระโขนง เขตคลองเตย<br/>
+        <br/>
+        <b>English</b>: 1484/3, Sukhumvit 48/2, Sukhumvit Rd, Khwaeng Phra Khanong, Khet Khlong Toei, Krung Thep Maha Nakhon, (10110)
     </Paragraph>
     <Paragraph>
-    Also please save the text below on your phone, it explains how
-    to find our place in detail. You can show it to locals or the taxi
-    driver:
+        Our house is near the On Nut BTS station (Skytrain). When you
+        arrive at On Nut BTS station, you can find our place using the 
+        video provided in this page.
     </Paragraph>
-    <Paragraph>
-    Furthermore, here is an audio file that expalins how to find our place.
-    You can save it on your phone and play in for local people or taxi drivers:
-    </Paragraph> 
-    <FlatButton label="Download Audio File" secondary={true} />
-    </GrApp>
+
 
        
-
+    </GrApp>
     </div>
 )
 

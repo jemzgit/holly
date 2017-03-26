@@ -14,7 +14,7 @@ const TableExampleSimple = () => (
     <TableBody displayRowCheckbox={false}>
       <TableRow>
         <TableRowColumn>Holly's Main Phone</TableRowColumn>
-        <TableRowColumn>000000000</TableRowColumn>
+        <TableRowColumn>027428213</TableRowColumn>
         
       </TableRow>
       <TableRow>

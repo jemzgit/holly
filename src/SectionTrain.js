@@ -20,8 +20,8 @@ const SectionTrain= () => (
         <GrApp> 
             <Heading style={{paddingTop: '20px'}}>Train Station</Heading>
             <Paragraph>
-            'Hua lamphong' train station is Bangkok's main train station. It is also connected
-            to Hua laumphong MRT station (subway). When you arrive at Hua Laumphong
+            'Hua Lamphong' train station is Bangkok's main train station. It is also connected
+            to Hua Lamphong MRT station (subway). When you arrive at Hua Laumphong
             train station, you go to MRT station and take subway to 'Sukhumvit' MRT
             station. Sukhumit MRT station is connected to Asok BTS station. Then you take
             the BTS (skytrain) to On Nut BTS station.

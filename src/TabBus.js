@@ -28,7 +28,7 @@ const TabsExampleIconText = () => (
          <div>
             <h2 style={styles.headline}>Ekkamai Eastern Bus Terminal</h2>
             <p>
-              Ekkamai bus termianl is located near our house. You can easily
+              Ekkamai bus terminal (Eastern bus terminal) is located near our house. You can easily
               go by BTS near our house (On Nut BTS station) to Ekkamai BTS station.
             </p>
           </div>

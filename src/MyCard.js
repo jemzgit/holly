@@ -19,8 +19,8 @@ const CardExampleWithAvatar = (Props) => (
       {Props.Content}
     </CardText>
     <CardActions>
-      <FlatButton label="Book On Airbnb" />
-      <FlatButton label="Book On HostelWorld" />
+      <FlatButton label={"Book On Airbnb"} href={Props.Airbnb} />
+      <FlatButton label="Book On HostelWorld" href={Props.Hostelworld} />
     </CardActions>
   </Card>
 );

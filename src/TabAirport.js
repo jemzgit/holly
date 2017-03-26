@@ -30,9 +30,11 @@ const TabsExampleIconText = () => (
             <p>
               Suvarnabhumi Airport is the largest and the main airport in Bangkok.
               This airport handles the majority of international flights. 
-              It has several convenient public transportation systems including the
-              well-known Airport Link which is a the train system that connected airport
-              to the the rest of Bangkok city.
+              To come to our house, you take Airport Link (train) at 
+              the airport to Phaya Thai Station and change to BTS (skytrain).
+              Then you take BTS to On Nut station and you can use the video to 
+              find our house from On Nut. You can also take a taxi meter from 
+              Suvarnabhumi to our place. It costs roughly around 150 Thai Baht.
             </p>
           </div>
     </Tab>
@@ -50,7 +52,8 @@ const TabsExampleIconText = () => (
               find taxi right outside the airport. A word of caustion, the taxis
               inside airport are very expensive. Do not use airport taxis. Instead
               walk outside the airport priemeter to the main road and you can
-              easily find normal taxis with meter. Please make sure they turn on the meter
+              easily find normal taxis with meter. Please make sure they turn on the meter.
+              You can show taxi driver the address provided on this page.
 
             </p>
           </div>

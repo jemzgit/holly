@@ -55,9 +55,9 @@ const App = () => (
         
         <Box align='center' pad='medium' margin='small'>
           <Card>
-          <Image src="images/third-room.jpg" size={'medium'}/>
+          <Image src="images/desk.jpg" size={'medium'}/>
           <CardText>
-            Sit, relax and enjoy your stay ;)
+            Welcome to our humble abode ;)
           </CardText>
           </Card>
         </Box>
