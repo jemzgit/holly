@@ -22,6 +22,9 @@ const SectionVideo = () => (
             This following video shows the walking route from
             On Nut BTS station (Skytrain) to our house:
             </Paragraph>
+            <Paragraph>
+                <b>Note:</b> Please download the video file and save it on your phone. Therefore, you can see the video on your arrival again in case you don't have access to the internet.
+            </Paragraph>
         </GrApp>
 
             <RaisedButton 
