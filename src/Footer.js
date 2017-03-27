@@ -16,7 +16,6 @@ class FooterComponent extends React.Component {
                <Footer justify='between'>
 
                 <Box 
-                
                     align='center'
                     pad={{"between": "medium"}}>
                      <Anchor  href='http://jemz.org'>

@@ -2,11 +2,11 @@ import React from 'react';
 import { DefaultPlayer as Video } from 'react-html5video';
 import 'react-html5video/dist/styles.css';
 
-const videoPath = 'https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.480p.webm'
+const videoPath = 'https://ia801503.us.archive.org/21/items/movie_20170327/movie.webm'
 const VideoComponent = () => (
             <Video 
             controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
-            poster="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Big_Buck_Bunny_4K.webm/800px--Big_Buck_Bunny_4K.webm.jpg"
+            poster="https://upload.wikimedia.org/wikipedia/commons/0/08/Bangkok_Skytrain_2011.jpg"
             onCanPlayThrough={() => {
                 // Do stuff
             }}>
