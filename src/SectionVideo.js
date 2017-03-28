@@ -20,7 +20,7 @@ const SectionVideo = () => (
             <Heading style={{paddingTop: '20px'}}>Video</Heading>
             <Paragraph>
             This following video shows the walking route from
-            On Nut BTS station (Skytrain) to our house:
+            On Nut BTS station (Skytrain) to our house. It really helps you a lot to find our place:
             </Paragraph>
             <Paragraph>
                 <b>Note:</b> Please download the video file and save it on your phone. Therefore, you can see the video on your arrival again in case you don't have access to the internet.
