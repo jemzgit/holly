@@ -53,7 +53,7 @@ const SectionAttraction= () => (
             </Paragraph>
 
             <Title>Chatuchak and JJ Weekend Markets</Title>
-            <Paragraph> You can go there by BTS and MRT.
+            <Paragraph> You can take BTS to Chatuchak BTS station and from there walk to the market.
             </Paragraph>
 
 
