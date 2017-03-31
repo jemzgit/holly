@@ -45,7 +45,8 @@ const SectionAttraction= () => (
             </Paragraph>
 
             <Title>Bangkok's Ancient City</Title>
-            <Paragraph>A theme town worth visiting
+            <Paragraph>You can go to Bearing BTS station and from there
+                take bus to Bangkok's ancient city.
             </Paragraph>
 
             <Title>Famous Shopping Malls</Title>
