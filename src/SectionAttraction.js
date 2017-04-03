@@ -34,9 +34,8 @@ const SectionAttraction= () => (
                 The cheapest way is to take bus Number 2 which goes directly
                 to that area. The bus fare is around 10 Baht.
                 
-                If you prefer a faster and more adventurous option, we recommend
-                the 'klong boats' to you. You can go to Ramkhamheng by bus and then
-                Take a cheap 10 baht boat to that area
+                Another easy way is to take BTS to Sapahn Taksin BTS station
+                and from there take boat to Grand Palace.
                 </Paragraph>
             
             <Title>Sukhmvit Area Bars and Clubs</Title>
