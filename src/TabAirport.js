@@ -48,7 +48,12 @@ const TabsExampleIconText = () => (
               Don Muang is the second international airport in Bangkok and is mainly
               used for flights to and from other eastern asian countries (China, Singapore, Malaysia, etc)
               as well as domestic flights. Unlike Suvarnabhumi, Don Muang airport 
-              does NOT have easy public transportation. However, you can always easily
+              does NOT have easy public transportation. If you prefer to use public transportation
+              you can find some bus from the airport (such as number 82) to Mo Chit BTS Station
+              and take BTS(skytrain) to our place.
+              
+  
+              You can also easily
               find taxi right outside the airport. A word of caustion, the taxis
               inside airport are very expensive. Do not use airport taxis. Instead
               walk outside the airport priemeter to the main road and you can
