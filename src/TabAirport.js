@@ -54,7 +54,7 @@ const TabsExampleIconText = () => (
               
   
               You can also easily
-              find taxi right outside the airport. A word of caustion, the taxis
+              find taxi right outside the airport. A word of caution, the taxis
               inside airport are very expensive. Do not use airport taxis. Instead
               walk outside the airport priemeter to the main road and you can
               easily find normal taxis with meter. Please make sure the taxi turn on the meter.
