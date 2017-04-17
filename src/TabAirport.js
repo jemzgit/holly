@@ -34,7 +34,8 @@ const TabsExampleIconText = () => (
               the airport to Phaya Thai Station and change to BTS (skytrain).
               Then you take BTS to On Nut station and you can use the video to 
               find our house from On Nut. You can also take a taxi meter from 
-              Suvarnabhumi to our place. It costs roughly around 150 Thai Baht.
+              Suvarnabhumi to our place. Taking a taxi could cost cheaper in
+              case you are travelling with another person. It costs roughly around 150 Thai Baht.
             </p>
           </div>
     </Tab>
